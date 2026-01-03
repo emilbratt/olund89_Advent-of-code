@@ -12,11 +12,9 @@ for c in r:
     current = left - right
     if current == -1:
         break
-    
-    position = position + 1
 
-print("current = " + str(current) + " position = " + str(position))
-    
+    position = position + 1
 
 p1 = left - right
 print("Part 1 = " + str(p1))
+print("Part 2 = " + str(p2))
